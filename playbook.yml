@@ -1,0 +1,15 @@
+- name: Pull image for calculator
+  hosts: all
+  tasks:
+      - name: Stop Already running container
+        shell: docker stop $(docker ps -a -q --filter ancestor=pranu2502/spe-mini-project)
+
+      - name: Remove Old container
+        shell: docker rm $(docker ps -a -q --filter ancestor=pranu2502/spe-mini-project)
+
+      - name: pull docker image
+        shell: docker pull pranu2502/spe-mini-project
+
+      - name: Run the container
+        shell: docker run -itd pranu2502/spe-mini-project
+
