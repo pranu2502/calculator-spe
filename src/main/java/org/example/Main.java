@@ -17,7 +17,9 @@ public class Main {
             Scanner sc = new Scanner(System.in);
 
             Calculator calculator = new Calculator();
+
             int op = sc.nextInt();
+
             double num1, num2;
 
             while(op != 0)
@@ -28,17 +30,20 @@ public class Main {
                         System.out.println("Enter a number");
                         num1 = sc.nextDouble();
                         System.out.println("Square Root of " + String.valueOf(num1) + " is " + calculator.squareRoot(num1));
+                        break;
 
                     case 2:
                         System.out.println("Enter a number");
                         num1 = sc.nextDouble();
-                        System.out.println("Square Root of " + String.valueOf(num1) + " is " + calculator.factorial(num1));
+                        System.out.println("Factorial of " + String.valueOf(num1) + " is " + calculator.factorial(num1));
+                        break;
 
 
                     case 3:
                         System.out.println("Enter a number");
                         num1 = sc.nextDouble();
                         System.out.println("Natural Logarithm of " + String.valueOf(num1) + " is " + calculator.logarithm(num1));
+                        break;
 
                     case 4:
                         System.out.println("Enter a number for the base");
@@ -46,13 +51,17 @@ public class Main {
                         System.out.println("Enter a number for the power");
                         num2 = sc.nextDouble();
                         System.out.println("Value of " + String.valueOf(num1) + " to the power of " + String.valueOf(num2) + " is " + calculator.power(num1, num2));
+                        break;
 
                     default:
+                        System.out.println("Invalid Input");;
                         break;
                 }
 
                 op = sc.nextInt();
             }
+
+        System.out.println("Byeee");
 
         }
 }
