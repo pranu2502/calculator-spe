@@ -23,16 +23,22 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                dockerImage = docker.build 'pranu2502/spe-mini-project'
+                script{
+                    dockerImage = docker.build 'pranu2502/spe-mini-project'
+                }
+
             }
         }
 
 
         stage('Push Docker Image') {
             steps {
-               docker.withRegistry('','docker'){
-                                   imageName.push()
-                }
+                script{
+                    docker.withRegistry('','docker'){
+                        imageName.push()
+                       }
+                    }
+
             }
         }
 
