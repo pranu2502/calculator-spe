@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+            maven 'maven-3.9.0'
+        }
     stages {
         stage('git pull') {
             steps {
@@ -16,7 +19,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-            sh 'docker build -t latest .'
+                sh 'docker build -t latest .'
             }
         }
 
