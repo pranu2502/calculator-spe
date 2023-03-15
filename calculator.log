@@ -1,0 +1,11 @@
+2023-03-16 00:59:16.195 [main] INFO  org.example.Main - Calculator Initialised
+2023-03-16 00:59:18.997 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-16 01:00:48.099 [main] INFO  org.example.Main - Calculator Initialised
+2023-03-16 01:00:54.121 [main] INFO  org.example.Main - Calculating the Square root of 9.0
+2023-03-16 01:00:56.752 [main] INFO  org.example.Main - Calculating the factorial of 7.0
+2023-03-16 01:01:00.302 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 8.0
+2023-03-16 01:01:04.424 [main] INFO  org.example.Main - Calculating the value of 4.0 raised to 6.0
+2023-03-16 01:01:08.339 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 89.0
+2023-03-16 01:01:11.046 [main] INFO  org.example.Main - Calculating the factorial of 65.0
+2023-03-16 01:01:19.651 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 768.0
+2023-03-16 01:01:21.942 [main] INFO  org.example.Main - Exiting Calculator
