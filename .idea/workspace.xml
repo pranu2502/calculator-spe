@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="989f2611-2908-40ed-a25f-55d9d0ab0f91" name="Changes" comment="Added tools to Jenkinsfile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,7 @@
       <workItem from="1678810594096" duration="2281000" />
       <workItem from="1678904005240" duration="3244000" />
       <workItem from="1678907266265" duration="1245000" />
-      <workItem from="1678908542878" duration="2931000" />
+      <workItem from="1678908542878" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="jenkinsfile typo">
       <created>1678910589741</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678911370575</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added tools to Jenkinsfile">
+      <created>1678911529329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678911529329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +169,8 @@
     <MESSAGE value="jenkinsfile typo" />
     <MESSAGE value="changed url in Jenkinsfile from https to ssh" />
     <MESSAGE value="Added tools to Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tools to Jenkinsfile" />
+    <MESSAGE value="maven spell" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven spell" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
