@@ -1,8 +1,11 @@
 pipeline {
     agent any
-        environment{
-            imageName=""
-        }
+        environment {
+                registry = 'pranu2502/spe-mini-project'
+                registryCredential = 'docker'
+                dockerImage = ''
+            }
+
         tools {
             maven "Maven"
         }
@@ -21,24 +24,21 @@ pipeline {
             }
         }
 
-        stage('Build Docker Image') {
+        stage ('Build Docker Image') {
             steps {
-                script{
-                    dockerImage = docker.build 'pranu2502/spe-mini-project'
+                script {
+                    dockerImage = docker.build registry + ":latest"
                 }
-
             }
         }
 
-
-        stage('Push Docker Image') {
+        stage ('Push Docker Image to DockerHub') {
             steps {
-                script{
-                    docker.withRegistry('','docker'){
-                        imageName.push()
-                       }
+                script {
+                    docker.withRegistry('', registryCredential) {
+                        dockerImage.push()
                     }
-
+                }
             }
         }
 
