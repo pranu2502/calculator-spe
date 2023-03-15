@@ -1,8 +1,9 @@
 pipeline {
     agent any
-    tools {
-            maven-3.9.0
+        tools {
+            maven "Maven"
         }
+
     stages {
         stage('git pull') {
             steps {
