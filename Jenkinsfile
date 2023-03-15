@@ -1,5 +1,8 @@
 pipeline {
     agent any
+        environment{
+            imageName=""
+        }
         tools {
             maven "Maven"
         }
@@ -20,19 +23,16 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t latest .'
+                dockerImage = docker.build 'pranu2502/spe-mini-project'
             }
         }
 
-        stage('Tag Docker Image') {
-            steps {
-                sh 'docker tag latest pranu2502/spe-mini-project'
-            }
-        }
 
         stage('Push Docker Image') {
             steps {
-                sh 'docker push pranu2502/spe-mini-project'
+               docker.withRegistry('','docker'){
+                                   imageName.push()
+                }
             }
         }
 
