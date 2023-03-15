@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git pull') {
             steps {
-                git branch: 'main'
+                git branch: 'main',
                     url: 'https://github.com/pranu2502/calculator-spe'
             }
         }
