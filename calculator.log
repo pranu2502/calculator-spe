@@ -25,3 +25,70 @@
 2023-03-16 12:39:28.924 [main] INFO  org.example.Main - Calculating the value of 10.0 raised to 2.0
 2023-03-16 12:39:38.387 [main] INFO  org.example.Main - Calculating the value of 7.0 raised to 15.0
 2023-03-16 12:39:54.014 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-16 13:49:24.594 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:49:34.187 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:49:34.189 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:49:36.912 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-16 13:49:40.738 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:49:40.739 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:49:43.155 [main] INFO  org.example.Main - Calculating the Square root of -3.0
+2023-03-16 13:51:49.183 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:51:49.184 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:51:52.257 [main] INFO  org.example.Main - Calculating the Square root of -1.0
+2023-03-16 13:51:52.259 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
+2023-03-16 13:53:05.603 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:53:05.605 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:53:10.109 [main] INFO  org.example.Main - Calculating the Square root of 9.0
+2023-03-16 13:53:49.551 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:53:49.552 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:53:53.165 [main] INFO  org.example.Main - Calculating the Square root of -1.0
+2023-03-16 13:53:53.166 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
+2023-03-16 13:53:55.507 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-16 13:54:00.039 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:54:00.040 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:54:02.173 [main] INFO  org.example.Main - Invalid option entered
+2023-03-16 13:54:08.021 [main] INFO  org.example.Main - Calculating the Square root of 5.0
+2023-03-16 13:56:14.688 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:56:14.689 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:56:18.954 [main] INFO  org.example.Main - Calculating the factorial of 6.0
+2023-03-16 13:56:23.299 [main] INFO  org.example.Main - Calculating the factorial of -5.0
+2023-03-16 13:56:23.301 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
+2023-03-16 13:58:44.080 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 13:58:44.081 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 13:58:49.636 [main] INFO  org.example.Main - Calculating the value of 0.0 raised to 0.0
+2023-03-16 13:58:54.791 [main] INFO  org.example.Main - Calculating the value of 0.0 raised to 1.0
+2023-03-16 13:59:02.193 [main] INFO  org.example.Main - Calculating the value of 1.0 raised to 0.0
+2023-03-16 14:03:15.915 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 14:03:15.917 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 14:03:21.914 [main] INFO  org.example.Main - CALCULATING: the Square root of 3.0
+2023-03-16 14:03:21.923 [main] INFO  org.example.Main -  RESULT: Square Root of 3.0 is 1.7320508075688772
+2023-03-16 14:03:29.212 [main] INFO  org.example.Main - CALCULATING: the Square root of 6.0
+2023-03-16 14:03:29.212 [main] INFO  org.example.Main -  RESULT: Square Root of 6.0 is 2.449489742783178
+2023-03-16 14:03:30.684 [main] INFO  org.example.Main - CALCULATING: the Square root of 8.0
+2023-03-16 14:03:30.684 [main] INFO  org.example.Main -  RESULT: Square Root of 8.0 is 2.8284271247461903
+2023-03-16 14:03:33.126 [main] INFO  org.example.Main - CALCULATING: the Square root of 48657.0
+2023-03-16 14:03:33.127 [main] INFO  org.example.Main -  RESULT: Square Root of 48657.0 is 220.58331759224222
+2023-03-16 14:03:34.947 [main] INFO  org.example.Main - CALCULATING: the Square root of -575.0
+2023-03-16 14:03:34.948 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
+2023-03-16 14:03:34.948 [main] INFO  org.example.Main -  RESULT: Square Root of -575.0 is null
+2023-03-16 14:03:42.728 [main] INFO  org.example.Main - CALCULATING: the factorial of 0.0
+2023-03-16 14:03:42.729 [main] INFO  org.example.Main -  RESULT: Factorial of 0.0 is 1.0
+2023-03-16 14:03:47.864 [main] INFO  org.example.Main - CALCULATING: the factorial of -757.0
+2023-03-16 14:03:47.864 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
+2023-03-16 14:03:47.864 [main] INFO  org.example.Main -  RESULT: Factorial of -757.0 is null
+2023-03-16 14:03:50.428 [main] INFO  org.example.Main - CALCULATING: the factorial of 889.0
+2023-03-16 14:03:50.429 [main] INFO  org.example.Main -  RESULT: Factorial of 889.0 is Infinity
+2023-03-16 14:03:55.073 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 0.0
+2023-03-16 14:03:55.073 [main] ERROR org.example.Calculator - java.lang.Exception: The input for Logarithm cannot be 0
+2023-03-16 14:03:55.074 [main] INFO  org.example.Main -  RESULT: Natural Logarithm of 0.0 is null
+2023-03-16 14:03:57.928 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of -57584.0
+2023-03-16 14:03:57.929 [main] ERROR org.example.Calculator - java.lang.Exception: The input for Logarithm cannot be negative
+2023-03-16 14:03:57.929 [main] INFO  org.example.Main -  RESULT: Natural Logarithm of -57584.0 is null
+2023-03-16 14:04:30.020 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 14:04:30.021 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 14:04:55.287 [main] INFO  org.example.Main - CALCULATING: the Square root of 45.0
+2023-03-16 14:04:55.295 [main] INFO  org.example.Main -  RESULT: Square Root of 45.0 is 6.708203932499369
+2023-03-16 14:05:06.417 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 14:05:06.419 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-16 14:05:09.978 [main] INFO  org.example.Main - CALCULATING: the Square root of 75.0
+2023-03-16 14:05:09.986 [main] INFO  org.example.Main -  RESULT: Square Root of 75.0 is 8.660254037844387
