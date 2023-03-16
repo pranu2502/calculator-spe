@@ -92,3 +92,7 @@
 2023-03-16 14:05:06.419 [main] INFO  org.example.Main - Calculator Object Ready
 2023-03-16 14:05:09.978 [main] INFO  org.example.Main - CALCULATING: the Square root of 75.0
 2023-03-16 14:05:09.986 [main] INFO  org.example.Main -  RESULT: Square Root of 75.0 is 8.660254037844387
+2023-03-16 14:50:56.647 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 14:50:56.660 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 14:50:56.661 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-16 14:50:56.663 [main] INFO  org.example.Calculator - Calculator Initialised
