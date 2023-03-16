@@ -1,11 +1,6 @@
 pipeline {
     agent any
-        environment {
-                registry = 'pranu2502/spe-mini-project'
-                registryCredential = 'docker'
-                dockerImage = ''
-            }
-
+       
         tools {
             maven "Maven"
         }
@@ -26,9 +21,7 @@ pipeline {
 
         stage ('Build Docker Image') {
             steps {
-                script {
-                    dockerImage = docker.build registry + ":latest"
-                }
+                sh 'docker build -t pranu2502/spe-mini-project .'
             }
         }
 
