@@ -1,6 +1,6 @@
 pipeline {
     agent any
-        
+
         tools {
             maven "Maven"
         }
@@ -30,6 +30,12 @@ pipeline {
                 sh 'docker push pranu2502/spe-mini-project'
             }
         }
+
+        stage('Run ansible for deployment') {
+                    steps {
+                        ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: './inventory', playbook: 'playbook.yml'
+                    }
+                }
 
 
     }
