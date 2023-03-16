@@ -9,3 +9,19 @@
 2023-03-16 01:01:11.046 [main] INFO  org.example.Main - Calculating the factorial of 65.0
 2023-03-16 01:01:19.651 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 768.0
 2023-03-16 01:01:21.942 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-16 12:36:12.129 [main] INFO  org.example.Main - Calculator Initialised
+2023-03-16 12:36:16.381 [main] INFO  org.example.Main - Calculating the factorial of 3.0
+2023-03-16 12:36:21.965 [main] INFO  org.example.Main - Invalid option entered
+2023-03-16 12:36:25.447 [main] INFO  org.example.Main - Calculating the factorial of 8.0
+2023-03-16 12:36:31.771 [main] INFO  org.example.Main - Calculating the factorial of 5.0
+2023-03-16 12:36:34.106 [main] INFO  org.example.Main - Calculating the factorial of 7.0
+2023-03-16 12:37:07.427 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 987.0
+2023-03-16 12:37:11.860 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 45.0
+2023-03-16 12:37:13.892 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 2.0
+2023-03-16 12:37:19.838 [main] INFO  org.example.Main - Invalid option entered
+2023-03-16 12:38:06.886 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 7.0
+2023-03-16 12:39:03.260 [main] INFO  org.example.Main - Calculating the value of 2.0 raised to 3.0
+2023-03-16 12:39:18.794 [main] INFO  org.example.Main - Calculating the value of 4.0 raised to 9.0
+2023-03-16 12:39:28.924 [main] INFO  org.example.Main - Calculating the value of 10.0 raised to 2.0
+2023-03-16 12:39:38.387 [main] INFO  org.example.Main - Calculating the value of 7.0 raised to 15.0
+2023-03-16 12:39:54.014 [main] INFO  org.example.Main - Exiting Calculator
