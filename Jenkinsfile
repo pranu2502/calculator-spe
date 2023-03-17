@@ -27,7 +27,7 @@ pipeline {
 
         stage ('Push Docker Image to DockerHub') {
             steps {
-                sh 'docker push pranu2502/spe-mini-project'
+                sh 'docker push pranu2502/spe-mini-project:latest '
             }
         }
 
@@ -37,6 +37,11 @@ pipeline {
             }
         }
 
-
+        stage('Upload logs using Logstash')
+        {
+            steps {
+                sh './logstash-8.6.2/bin/logstash -f ./Documents/IIITB/sem8/spe/calculator/logstash.conf'
+            }
+        }
     }
 }

@@ -1,98 +1,101 @@
-2023-03-16 00:59:16.195 [main] INFO  org.example.Main - Calculator Initialised
-2023-03-16 00:59:18.997 [main] INFO  org.example.Main - Exiting Calculator
-2023-03-16 01:00:48.099 [main] INFO  org.example.Main - Calculator Initialised
-2023-03-16 01:00:54.121 [main] INFO  org.example.Main - Calculating the Square root of 9.0
-2023-03-16 01:00:56.752 [main] INFO  org.example.Main - Calculating the factorial of 7.0
-2023-03-16 01:01:00.302 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 8.0
-2023-03-16 01:01:04.424 [main] INFO  org.example.Main - Calculating the value of 4.0 raised to 6.0
-2023-03-16 01:01:08.339 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 89.0
-2023-03-16 01:01:11.046 [main] INFO  org.example.Main - Calculating the factorial of 65.0
-2023-03-16 01:01:19.651 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 768.0
-2023-03-16 01:01:21.942 [main] INFO  org.example.Main - Exiting Calculator
-2023-03-16 12:36:12.129 [main] INFO  org.example.Main - Calculator Initialised
-2023-03-16 12:36:16.381 [main] INFO  org.example.Main - Calculating the factorial of 3.0
-2023-03-16 12:36:21.965 [main] INFO  org.example.Main - Invalid option entered
-2023-03-16 12:36:25.447 [main] INFO  org.example.Main - Calculating the factorial of 8.0
-2023-03-16 12:36:31.771 [main] INFO  org.example.Main - Calculating the factorial of 5.0
-2023-03-16 12:36:34.106 [main] INFO  org.example.Main - Calculating the factorial of 7.0
-2023-03-16 12:37:07.427 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 987.0
-2023-03-16 12:37:11.860 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 45.0
-2023-03-16 12:37:13.892 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 2.0
-2023-03-16 12:37:19.838 [main] INFO  org.example.Main - Invalid option entered
-2023-03-16 12:38:06.886 [main] INFO  org.example.Main - Calculating the Natural Logarithm of 7.0
-2023-03-16 12:39:03.260 [main] INFO  org.example.Main - Calculating the value of 2.0 raised to 3.0
-2023-03-16 12:39:18.794 [main] INFO  org.example.Main - Calculating the value of 4.0 raised to 9.0
-2023-03-16 12:39:28.924 [main] INFO  org.example.Main - Calculating the value of 10.0 raised to 2.0
-2023-03-16 12:39:38.387 [main] INFO  org.example.Main - Calculating the value of 7.0 raised to 15.0
-2023-03-16 12:39:54.014 [main] INFO  org.example.Main - Exiting Calculator
-2023-03-16 13:49:24.594 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:49:34.187 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:49:34.189 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:49:36.912 [main] INFO  org.example.Main - Exiting Calculator
-2023-03-16 13:49:40.738 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:49:40.739 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:49:43.155 [main] INFO  org.example.Main - Calculating the Square root of -3.0
-2023-03-16 13:51:49.183 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:51:49.184 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:51:52.257 [main] INFO  org.example.Main - Calculating the Square root of -1.0
-2023-03-16 13:51:52.259 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
-2023-03-16 13:53:05.603 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:53:05.605 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:53:10.109 [main] INFO  org.example.Main - Calculating the Square root of 9.0
-2023-03-16 13:53:49.551 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:53:49.552 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:53:53.165 [main] INFO  org.example.Main - Calculating the Square root of -1.0
-2023-03-16 13:53:53.166 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
-2023-03-16 13:53:55.507 [main] INFO  org.example.Main - Exiting Calculator
-2023-03-16 13:54:00.039 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:54:00.040 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:54:02.173 [main] INFO  org.example.Main - Invalid option entered
-2023-03-16 13:54:08.021 [main] INFO  org.example.Main - Calculating the Square root of 5.0
-2023-03-16 13:56:14.688 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:56:14.689 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:56:18.954 [main] INFO  org.example.Main - Calculating the factorial of 6.0
-2023-03-16 13:56:23.299 [main] INFO  org.example.Main - Calculating the factorial of -5.0
-2023-03-16 13:56:23.301 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
-2023-03-16 13:58:44.080 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 13:58:44.081 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 13:58:49.636 [main] INFO  org.example.Main - Calculating the value of 0.0 raised to 0.0
-2023-03-16 13:58:54.791 [main] INFO  org.example.Main - Calculating the value of 0.0 raised to 1.0
-2023-03-16 13:59:02.193 [main] INFO  org.example.Main - Calculating the value of 1.0 raised to 0.0
-2023-03-16 14:03:15.915 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 14:03:15.917 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 14:03:21.914 [main] INFO  org.example.Main - CALCULATING: the Square root of 3.0
-2023-03-16 14:03:21.923 [main] INFO  org.example.Main -  RESULT: Square Root of 3.0 is 1.7320508075688772
-2023-03-16 14:03:29.212 [main] INFO  org.example.Main - CALCULATING: the Square root of 6.0
-2023-03-16 14:03:29.212 [main] INFO  org.example.Main -  RESULT: Square Root of 6.0 is 2.449489742783178
-2023-03-16 14:03:30.684 [main] INFO  org.example.Main - CALCULATING: the Square root of 8.0
-2023-03-16 14:03:30.684 [main] INFO  org.example.Main -  RESULT: Square Root of 8.0 is 2.8284271247461903
-2023-03-16 14:03:33.126 [main] INFO  org.example.Main - CALCULATING: the Square root of 48657.0
-2023-03-16 14:03:33.127 [main] INFO  org.example.Main -  RESULT: Square Root of 48657.0 is 220.58331759224222
-2023-03-16 14:03:34.947 [main] INFO  org.example.Main - CALCULATING: the Square root of -575.0
-2023-03-16 14:03:34.948 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
-2023-03-16 14:03:34.948 [main] INFO  org.example.Main -  RESULT: Square Root of -575.0 is null
-2023-03-16 14:03:42.728 [main] INFO  org.example.Main - CALCULATING: the factorial of 0.0
-2023-03-16 14:03:42.729 [main] INFO  org.example.Main -  RESULT: Factorial of 0.0 is 1.0
-2023-03-16 14:03:47.864 [main] INFO  org.example.Main - CALCULATING: the factorial of -757.0
-2023-03-16 14:03:47.864 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
-2023-03-16 14:03:47.864 [main] INFO  org.example.Main -  RESULT: Factorial of -757.0 is null
-2023-03-16 14:03:50.428 [main] INFO  org.example.Main - CALCULATING: the factorial of 889.0
-2023-03-16 14:03:50.429 [main] INFO  org.example.Main -  RESULT: Factorial of 889.0 is Infinity
-2023-03-16 14:03:55.073 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 0.0
-2023-03-16 14:03:55.073 [main] ERROR org.example.Calculator - java.lang.Exception: The input for Logarithm cannot be 0
-2023-03-16 14:03:55.074 [main] INFO  org.example.Main -  RESULT: Natural Logarithm of 0.0 is null
-2023-03-16 14:03:57.928 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of -57584.0
-2023-03-16 14:03:57.929 [main] ERROR org.example.Calculator - java.lang.Exception: The input for Logarithm cannot be negative
-2023-03-16 14:03:57.929 [main] INFO  org.example.Main -  RESULT: Natural Logarithm of -57584.0 is null
-2023-03-16 14:04:30.020 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 14:04:30.021 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 14:04:55.287 [main] INFO  org.example.Main - CALCULATING: the Square root of 45.0
-2023-03-16 14:04:55.295 [main] INFO  org.example.Main -  RESULT: Square Root of 45.0 is 6.708203932499369
-2023-03-16 14:05:06.417 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 14:05:06.419 [main] INFO  org.example.Main - Calculator Object Ready
-2023-03-16 14:05:09.978 [main] INFO  org.example.Main - CALCULATING: the Square root of 75.0
-2023-03-16 14:05:09.986 [main] INFO  org.example.Main -  RESULT: Square Root of 75.0 is 8.660254037844387
-2023-03-16 14:50:56.647 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 14:50:56.660 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 14:50:56.661 [main] INFO  org.example.Calculator - Calculator Initialised
-2023-03-16 14:50:56.663 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-17 15:12:11.307 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-17 15:12:11.309 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-17 15:12:16.705 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:12:16.711 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:12:17.785 [main] INFO  org.example.Main - CALCULATING: the Square root of 6.0
+2023-03-17 15:12:17.785 [main] INFO  org.example.Main - RESULT: Square Root of 6.0 is 2.449489742783178
+2023-03-17 15:12:20.830 [main] INFO  org.example.Main - CALCULATING: the Square root of 23.0
+2023-03-17 15:12:20.831 [main] INFO  org.example.Main - RESULT: Square Root of 23.0 is 4.795831523312719
+2023-03-17 15:12:22.960 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:12:22.961 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:12:27.712 [main] INFO  org.example.Main - CALCULATING: the Square root of 10.0
+2023-03-17 15:12:27.713 [main] INFO  org.example.Main - RESULT: Square Root of 10.0 is 3.1622776601683795
+2023-03-17 15:12:32.953 [main] INFO  org.example.Main - CALCULATING: the factorial of 13.0
+2023-03-17 15:12:32.954 [main] INFO  org.example.Main - RESULT: Factorial of 13.0 is 6.2270208E9
+2023-03-17 15:12:37.274 [main] INFO  org.example.Main - CALCULATING: the factorial of 50.0
+2023-03-17 15:12:37.274 [main] INFO  org.example.Main - RESULT: Factorial of 50.0 is 3.0414093201713376E64
+2023-03-17 15:12:44.422 [main] INFO  org.example.Main - CALCULATING: the factorial of 27.0
+2023-03-17 15:12:44.422 [main] INFO  org.example.Main - RESULT: Factorial of 27.0 is 1.0888869450418352E28
+2023-03-17 15:12:48.065 [main] INFO  org.example.Main - CALCULATING: the Square root of -45.0
+2023-03-17 15:12:48.067 [main] ERROR org.example.Calculator - java.lang.Exception: The input for square root cannot be negative
+2023-03-17 15:12:48.067 [main] INFO  org.example.Main - RESULT: Square Root of -45.0 is null
+2023-03-17 15:13:02.717 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 1000.0
+2023-03-17 15:13:02.718 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 1000.0 is 6.907755278982137
+2023-03-17 15:13:10.803 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 603.0
+2023-03-17 15:13:10.803 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 603.0 is 6.401917196727186
+2023-03-17 15:13:15.253 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of -4.0
+2023-03-17 15:13:15.253 [main] ERROR org.example.Calculator - java.lang.Exception: The input for Logarithm cannot be negative
+2023-03-17 15:13:15.253 [main] INFO  org.example.Main - RESULT: Natural Logarithm of -4.0 is null
+2023-03-17 15:13:18.243 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 0.0
+2023-03-17 15:13:18.244 [main] ERROR org.example.Calculator - java.lang.Exception: The input for Logarithm cannot be 0
+2023-03-17 15:13:18.244 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 0.0 is null
+2023-03-17 15:13:22.680 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 25278.0
+2023-03-17 15:13:22.680 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 25278.0 is 10.137689731207072
+2023-03-17 15:13:41.862 [main] INFO  org.example.Main - CALCULATING: the value of 2.0 raised to 5.0
+2023-03-17 15:13:41.875 [main] INFO  org.example.Main - RESULT: Value of 2.0 to the power of 5.0 is 32.0
+2023-03-17 15:13:45.985 [main] INFO  org.example.Main - CALCULATING: the value of 3.0 raised to 8.0
+2023-03-17 15:13:45.985 [main] INFO  org.example.Main - RESULT: Value of 3.0 to the power of 8.0 is 6561.0
+2023-03-17 15:13:50.128 [main] INFO  org.example.Main - CALCULATING: the value of 9.0 raised to 4.0
+2023-03-17 15:13:50.128 [main] INFO  org.example.Main - RESULT: Value of 9.0 to the power of 4.0 is 6561.0
+2023-03-17 15:13:53.455 [main] ERROR org.example.Main - Invalid option entered
+2023-03-17 15:13:54.828 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-17 15:27:49.924 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-17 15:27:49.926 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-17 15:27:53.359 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-17 15:27:53.365 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-17 15:27:54.279 [main] INFO  org.example.Main - CALCULATING: the Square root of 2.0
+2023-03-17 15:27:54.279 [main] INFO  org.example.Main - RESULT: Square Root of 2.0 is 1.4142135623730951
+2023-03-17 15:27:55.199 [main] INFO  org.example.Main - CALCULATING: the Square root of 3.0
+2023-03-17 15:27:55.199 [main] INFO  org.example.Main - RESULT: Square Root of 3.0 is 1.7320508075688772
+2023-03-17 15:27:56.209 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
+2023-03-17 15:27:56.209 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
+2023-03-17 15:27:57.253 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:27:57.253 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:27:58.625 [main] INFO  org.example.Main - CALCULATING: the Square root of 6.0
+2023-03-17 15:27:58.626 [main] INFO  org.example.Main - RESULT: Square Root of 6.0 is 2.449489742783178
+2023-03-17 15:28:00.983 [main] INFO  org.example.Main - CALCULATING: the Square root of 656522.0
+2023-03-17 15:28:00.983 [main] INFO  org.example.Main - RESULT: Square Root of 656522.0 is 810.2604519535678
+2023-03-17 15:28:09.535 [main] INFO  org.example.Main - CALCULATING: the Square root of 9.4645373E7
+2023-03-17 15:28:09.536 [main] INFO  org.example.Main - RESULT: Square Root of 9.4645373E7 is 9728.585354510697
+2023-03-17 15:28:11.984 [main] INFO  org.example.Main - CALCULATING: the Square root of 4748.0
+2023-03-17 15:28:11.985 [main] INFO  org.example.Main - RESULT: Square Root of 4748.0 is 68.90573270780887
+2023-03-17 15:28:14.279 [main] INFO  org.example.Main - CALCULATING: the Square root of 0.0
+2023-03-17 15:28:14.279 [main] INFO  org.example.Main - RESULT: Square Root of 0.0 is 0.0
+2023-03-17 15:28:16.865 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-17 15:29:34.195 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-17 15:29:34.196 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-17 15:29:37.123 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
+2023-03-17 15:29:37.129 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
+2023-03-17 15:29:37.940 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:29:37.940 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:29:38.684 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:29:38.685 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:29:39.440 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:29:39.440 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:29:40.271 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
+2023-03-17 15:29:40.271 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
+2023-03-17 15:29:41.046 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:29:41.046 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:29:41.974 [main] INFO  org.example.Main - CALCULATING: the Square root of 5.0
+2023-03-17 15:29:41.974 [main] INFO  org.example.Main - RESULT: Square Root of 5.0 is 2.23606797749979
+2023-03-17 15:29:42.730 [main] INFO  org.example.Main - CALCULATING: the factorial of 6.0
+2023-03-17 15:29:42.730 [main] INFO  org.example.Main - RESULT: Factorial of 6.0 is 720.0
+2023-03-17 15:29:43.427 [main] INFO  org.example.Main - CALCULATING: the factorial of 6.0
+2023-03-17 15:29:43.427 [main] INFO  org.example.Main - RESULT: Factorial of 6.0 is 720.0
+2023-03-17 15:29:44.110 [main] INFO  org.example.Main - CALCULATING: the factorial of 5.0
+2023-03-17 15:29:44.110 [main] INFO  org.example.Main - RESULT: Factorial of 5.0 is 120.0
+2023-03-17 15:29:44.839 [main] INFO  org.example.Main - CALCULATING: the factorial of 5.0
+2023-03-17 15:29:44.839 [main] INFO  org.example.Main - RESULT: Factorial of 5.0 is 120.0
+2023-03-17 15:29:45.554 [main] INFO  org.example.Main - CALCULATING: the factorial of 5.0
+2023-03-17 15:29:45.555 [main] INFO  org.example.Main - RESULT: Factorial of 5.0 is 120.0
+2023-03-17 15:29:46.406 [main] INFO  org.example.Main - CALCULATING: the factorial of 3.0
+2023-03-17 15:29:46.406 [main] INFO  org.example.Main - RESULT: Factorial of 3.0 is 6.0
+2023-03-17 15:29:48.607 [main] INFO  org.example.Main - CALCULATING: the value of 3.0 raised to 3.0
+2023-03-17 15:29:48.619 [main] INFO  org.example.Main - RESULT: Value of 3.0 to the power of 3.0 is 27.0
+2023-03-17 15:29:49.585 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 5.0
+2023-03-17 15:29:49.586 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 5.0 is 1.6094379124341003
+2023-03-17 15:29:50.349 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 6.0
+2023-03-17 15:29:50.349 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 6.0 is 1.791759469228055
+2023-03-17 15:29:51.573 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 6.0
+2023-03-17 15:29:51.574 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 6.0 is 1.791759469228055
+2023-03-17 15:29:52.429 [main] INFO  org.example.Main - Exiting Calculator
