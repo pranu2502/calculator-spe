@@ -30,9 +30,9 @@ pipeline {
         stage ('Push Docker Image to DockerHub') {
             steps{
                 script{
-                    withDockerRegistry([ credentialsId: "docker", url: "https://hub.docker.com/repository/docker/pranu2502/spe-mini-project/general" ]) {
+                    withDockerRegistry([ credentialsId: "docker", url: "" ]) {
                                     dockerImage.push()
-                                    }
+                    }
                 }
             }
 
