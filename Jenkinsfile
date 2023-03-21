@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment{
+        dockerImage = ""
+    }
 
     stages {
         stage('git pull') {
@@ -18,17 +21,16 @@ pipeline {
         stage ('Build Docker Image') {
             steps {
                 script{
-                    sh 'docker build -t pranu2502/spe-mini-project .'
+                    dockerImage = docker.build("pranu2502/spe-mini-project")
                 }
 
             }
         }
 
         stage ('Push Docker Image to DockerHub') {
-            steps {
-                sh 'docker push pranu2502/spe-mini-project:latest'
-
-            }
+            withDockerRegistry([ credentialsId: "docker", url: "" ]) {
+                    dockerImage.push()
+                    }
         }
 
         stage('Run ansible for deployment') {
