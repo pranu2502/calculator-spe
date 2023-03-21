@@ -99,3 +99,16 @@
 2023-03-17 15:29:51.573 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 6.0
 2023-03-17 15:29:51.574 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 6.0 is 1.791759469228055
 2023-03-17 15:29:52.429 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-21 01:53:13.598 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:13.611 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:13.613 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:13.614 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:19.881 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:19.895 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:19.897 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:19.898 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:33.804 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 01:53:33.805 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-21 01:53:41.438 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
+2023-03-21 01:53:41.439 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
+2023-03-21 01:53:43.198 [main] INFO  org.example.Main - Exiting Calculator

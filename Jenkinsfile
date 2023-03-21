@@ -37,11 +37,5 @@ pipeline {
             }
         }
 
-        stage('Upload logs using Logstash')
-        {
-            steps {
-                sh '/Users/pranavreddy/logstash-8.6.2/bin/logstash -f ./Documents/IIITB/sem8/spe/calculator/logstash.conf'
-            }
-        }
     }
 }
