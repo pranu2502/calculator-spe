@@ -1,9 +1,10 @@
 pipeline {
     agent any
-
-        tools {
-            maven "Maven"
-        }
+    environment{
+        registry = "pranu2502/spe-mini-project"
+        registryCredential = "docker"
+        dockerImage = ""
+    }
 
     stages {
         stage('git pull') {
@@ -27,9 +28,9 @@ pipeline {
 
         stage ('Push Docker Image to DockerHub') {
             steps {
-                withDockerRegistry([ credentialsId: "docker", url: "" ]) {
-                                    sh 'docker push pranu2502/spe-mini-project:latest'
-                                    }
+                withDockerRegistry('', registryCredential) {
+                    sh 'docker push pranu2502/spe-mini-project:latest'
+                }
             }
         }
 
