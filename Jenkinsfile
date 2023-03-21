@@ -1,10 +1,5 @@
 pipeline {
     agent any
-    environment{
-        registry = "pranu2502/spe-mini-project"
-        registryCredential = credentials('docker')
-        dockerImage = ""
-    }
 
     stages {
         stage('git pull') {
@@ -23,7 +18,7 @@ pipeline {
         stage ('Build Docker Image') {
             steps {
                 script{
-                    dockerImage = docker.build registry + ':latest'
+                    sh 'docker build -t pranu2502/spe-mini-project .'
                 }
 
             }
@@ -31,7 +26,6 @@ pipeline {
 
         stage ('Push Docker Image to DockerHub') {
             steps {
-                sh 'echo $registryCredential_PSW | sudo docker login -u $registryCredential_PSW --password-stdin'
                 sh 'docker push pranu2502/spe-mini-project:latest'
 
             }
