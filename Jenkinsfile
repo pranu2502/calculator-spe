@@ -1,8 +1,11 @@
 pipeline {
     agent any
-    environment{
+    environment {
+        registry = "pranu2502/spe-mini-project"
+        credentialID = "dockerhub"
         dockerImage = ""
     }
+
 
     stages {
         stage('git pull') {
@@ -21,7 +24,7 @@ pipeline {
         stage ('Build Docker Image') {
             steps {
                 script{
-                    dockerImage = docker.build("pranu2502/spe-mini-project")
+                    dockerImage = docker.build(registry + ":latest")
                 }
 
             }
@@ -30,8 +33,8 @@ pipeline {
         stage ('Push Docker Image to DockerHub') {
             steps{
                 script{
-                    withDockerRegistry([ credentialsId: "docker", url: "" ]) {
-                                    dockerImage.push()
+                    docker.withRegistry('', credentialID) {
+                        dockerImage.push()
                     }
                 }
             }
