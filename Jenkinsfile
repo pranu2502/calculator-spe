@@ -22,13 +22,13 @@ pipeline {
 
         stage ('Build Docker Image') {
             steps {
-                sh 'docker build -t pranu2502/spe-mini-project .'
+                docker.build registry + ':latest'
             }
         }
 
         stage ('Push Docker Image to DockerHub') {
             steps {
-                withDockerRegistry('', registryCredential) {
+                docker.withRegistry('', registryCredential) {
                     sh 'docker push pranu2502/spe-mini-project:latest'
                 }
             }
