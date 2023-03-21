@@ -23,7 +23,7 @@ pipeline {
 
         stage ('Build Docker Image') {
             steps {
-                sh 'docker build -t pranu2502/spe-mini-project'
+                sh 'docker build -t pranu2502/spe-mini-project .'
 
             }
         }
