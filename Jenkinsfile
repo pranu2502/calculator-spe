@@ -27,7 +27,9 @@ pipeline {
 
         stage ('Push Docker Image to DockerHub') {
             steps {
-                sh 'docker push pranu2502/spe-mini-project:latest '
+                withDockerRegistry([ credentialsId: "docker", url: "" ]) {
+                                    sh 'docker push pranu2502/spe-mini-project:latest'
+                                    }
             }
         }
 
