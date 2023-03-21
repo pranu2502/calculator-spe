@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         registry = "pranu2502/spe-mini-project"
-        credentialID = "dockerhub"
+        credentialID = "docker"
         dockerImage = ""
     }
 
