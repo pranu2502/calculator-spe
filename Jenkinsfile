@@ -28,9 +28,14 @@ pipeline {
         }
 
         stage ('Push Docker Image to DockerHub') {
-            withDockerRegistry([ credentialsId: "docker", url: "" ]) {
-                    dockerImage.push()
-                    }
+            steps{
+                script{
+                    withDockerRegistry([ credentialsId: "docker", url: "" ]) {
+                                    dockerImage.push()
+                                    }
+                }
+            }
+
         }
 
         stage('Run ansible for deployment') {
