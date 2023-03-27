@@ -23,21 +23,25 @@ pipeline {
 
         stage ('Build Docker Image') {
             steps {
-                sh 'docker build -t pranu2502/spe-mini-project .'
+                sh 'docker build -t pranu2502/spe-mini-project:latest .'
 
             }
         }
 
         stage ('Push Docker Image to DockerHub') {
             steps{
-                sh 'docker push pranu2502/spe-mini-project'
+                sh 'docker push pranu2502/spe-mini-project:latest'
             }
 
         }
 
         stage('Run ansible for deployment') {
             steps {
-                ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: './inventory', playbook: 'playbook.yml'
+                ansiblePlaybook colorized: true,
+                disableHostKeyChecking: true,
+                installation: 'Ansible',
+                inventory: './inventory',
+                playbook: 'playbook.yml'
             }
         }
 

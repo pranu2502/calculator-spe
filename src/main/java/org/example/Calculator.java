@@ -57,7 +57,7 @@ public class Calculator {
 
         return result;
     }
-
+//Check
     public Double logarithm(double x)
     {
         Double result = 0.0;

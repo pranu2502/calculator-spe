@@ -112,3 +112,100 @@
 2023-03-21 01:53:41.438 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
 2023-03-21 01:53:41.439 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
 2023-03-21 01:53:43.198 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-21 17:25:28.160 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 17:25:28.162 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-21 17:25:35.026 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:35.033 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:36.080 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:36.080 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:36.578 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:36.578 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:37.056 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:37.056 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:37.519 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:37.519 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:37.979 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:37.979 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:38.428 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:38.428 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:38.875 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:38.876 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:39.348 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:39.348 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:39.775 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:39.775 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:40.219 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:40.220 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:40.674 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:40.674 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:41.131 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:41.131 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:41.597 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:41.597 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:42.107 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:42.108 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:42.555 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:42.555 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:43.019 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:43.019 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:43.475 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:43.476 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:43.954 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:43.954 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:44.452 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:44.452 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:44.981 [main] INFO  org.example.Main - CALCULATING: the Square root of 11.0
+2023-03-21 17:25:44.982 [main] INFO  org.example.Main - RESULT: Square Root of 11.0 is 3.3166247903554
+2023-03-21 17:25:45.721 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:45.721 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:46.166 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:46.166 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:46.640 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:46.641 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:47.137 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:47.137 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:47.645 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:47.646 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:48.168 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:48.169 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:49.403 [main] INFO  org.example.Main - CALCULATING: the Square root of 1.0
+2023-03-21 17:25:49.403 [main] INFO  org.example.Main - RESULT: Square Root of 1.0 is 1.0
+2023-03-21 17:25:50.972 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-21 17:32:46.231 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 17:32:46.233 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-21 17:32:48.676 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
+2023-03-21 17:32:48.685 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
+2023-03-21 17:32:50.431 [main] INFO  org.example.Main - CALCULATING: the factorial of 4.0
+2023-03-21 17:32:50.432 [main] INFO  org.example.Main - RESULT: Factorial of 4.0 is 24.0
+2023-03-21 17:32:52.111 [main] INFO  org.example.Main - CALCULATING: the Square root of 7.0
+2023-03-21 17:32:52.112 [main] INFO  org.example.Main - RESULT: Square Root of 7.0 is 2.6457513110645907
+2023-03-21 17:32:54.097 [main] INFO  org.example.Main - CALCULATING: the value of 2.0 raised to 4.0
+2023-03-21 17:32:54.113 [main] INFO  org.example.Main - RESULT: Value of 2.0 to the power of 4.0 is 16.0
+2023-03-21 17:32:55.522 [main] INFO  org.example.Main - CALCULATING: the factorial of 5.0
+2023-03-21 17:32:55.522 [main] INFO  org.example.Main - RESULT: Factorial of 5.0 is 120.0
+2023-03-21 17:32:57.013 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 6.0
+2023-03-21 17:32:57.014 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 6.0 is 1.791759469228055
+2023-03-21 17:32:57.709 [main] INFO  org.example.Main - Exiting Calculator
+2023-03-21 17:35:34.724 [main] INFO  org.example.Calculator - Calculator Initialised
+2023-03-21 17:35:34.726 [main] INFO  org.example.Main - Calculator Object Ready
+2023-03-21 17:35:36.509 [main] INFO  org.example.Main - CALCULATING: the factorial of 4.0
+2023-03-21 17:35:36.517 [main] INFO  org.example.Main - RESULT: Factorial of 4.0 is 24.0
+2023-03-21 17:35:37.795 [main] INFO  org.example.Main - CALCULATING: the Square root of 6.0
+2023-03-21 17:35:37.796 [main] INFO  org.example.Main - RESULT: Square Root of 6.0 is 2.449489742783178
+2023-03-21 17:35:39.259 [main] INFO  org.example.Main - CALCULATING: the Natural Logarithm of 5.0
+2023-03-21 17:35:39.260 [main] INFO  org.example.Main - RESULT: Natural Logarithm of 5.0 is 1.6094379124341003
+2023-03-21 17:35:41.319 [main] INFO  org.example.Main - CALCULATING: the value of 5.0 raised to 7.0
+2023-03-21 17:35:41.334 [main] INFO  org.example.Main - RESULT: Value of 5.0 to the power of 7.0 is 78125.0
+2023-03-21 17:35:42.571 [main] INFO  org.example.Main - CALCULATING: the Square root of 4.0
+2023-03-21 17:35:42.571 [main] INFO  org.example.Main - RESULT: Square Root of 4.0 is 2.0
+2023-03-21 17:35:43.446 [main] INFO  org.example.Main - CALCULATING: the factorial of 5.0
+2023-03-21 17:35:43.446 [main] INFO  org.example.Main - RESULT: Factorial of 5.0 is 120.0
+2023-03-21 17:40:29.440 [main] INFO  org.example.Main - CALCULATING: the value of 3.0 raised to 5.0
+2023-03-21 17:40:29.446 [main] INFO  org.example.Main - RESULT: Value of 3.0 to the power of 5.0 is 243.0
+2023-03-21 17:40:32.475 [main] INFO  org.example.Main - CALCULATING: the value of 2.0 raised to 4.0
+2023-03-21 17:40:32.476 [main] INFO  org.example.Main - RESULT: Value of 2.0 to the power of 4.0 is 16.0
+2023-03-21 17:40:33.383 [main] INFO  org.example.Main - CALCULATING: the factorial of 3.0
+2023-03-21 17:40:33.384 [main] INFO  org.example.Main - RESULT: Factorial of 3.0 is 6.0
+2023-03-21 17:40:35.311 [main] INFO  org.example.Main - CALCULATING: the value of 5.0 raised to 4.0
+2023-03-21 17:40:35.312 [main] INFO  org.example.Main - RESULT: Value of 5.0 to the power of 4.0 is 625.0
+2023-03-21 17:40:35.908 [main] INFO  org.example.Main - Exiting Calculator

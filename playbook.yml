@@ -2,8 +2,8 @@
   hosts: all
   tasks:
       - name: pull docker image
-        shell: docker pull pranu2502/spe-mini-project
+        shell: docker pull pranu2502/spe-mini-project:latest
 
       - name: Run the container
-        shell: docker run -itd pranu2502/spe-mini-project
+        shell: docker run -itd pranu2502/spe-mini-project:latest
 
